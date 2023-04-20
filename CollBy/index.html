@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CollBy</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
@@ -12,19 +13,20 @@
             <h1>CollBy</h1>
         </div>
         <nav>
-            <div id>
+            <div id="nav">
                 <ul>
-                    <li><a href="">Abouts Us</a></li>
-                    <li><a href="">Service</a></li>
-                    <li><a href="">Our Teams</a></li>
-                    <li><a href="">Contact Us</a></li>
+                    <li><a href=""><b>Abouts Us</b></a></li>
+                    <li><a href=""><b>Service</b></a></li>
+                    <li><a href=""><b>Our Teams</b></a></li>
+                    <li class="active"><a href=""><b>Contact Us</b></a></li>
                 </ul>
             </div>
+            <div id="clear"></div>
         </nav>        
     </header>
     <main>
         <div id="awesome">
-            <h2>Let's Be Awesome</h2>
+            <h2><p>Let's Be</p> <p>Awesome</p></h2>
         </div>
         <div id="collab">
             <a>
@@ -32,8 +34,11 @@
                 <p>Creation Agency for Tailored Solutions that Elevate Your Brand to</p>
                 <p>New Heights of Success!</p>
             </a>
-            <input type="text" value="Enter your email address"><input type="button" value="Collab Now"> 
-        </div>
+            <div id="collab_email">
+                <input type="text" size="40" value="Enter your email address" id="email" onfocus="if(value==defaultValue)value=''" ><input type="submit" value="Collab Now" style="font-weight: bold" id="button"> 
+            </div>
+            </div>
+        <div id="clear"></div>
     </main>
     <footer>
         <div id="about_title">
